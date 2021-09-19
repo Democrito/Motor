@@ -1,4 +1,4 @@
-![](https://github.com/Democrito/Motor/blob/main/Motor_DC/img/scheme.png)
+![](https://github.com/Democrito/Motor/blob/main/Motor_DC/img/PID_scheme.png)
 
 Control de Motor DC con encoder incremental para FPGA (Icestudio). A través de cualquier serial se le envía la posición absoluta (0..65535). Tiene una adaptación particular de control PID.
 
