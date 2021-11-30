@@ -4,8 +4,6 @@ Control de Motor DC con encoder incremental para FPGA (Icestudio). A través de 
 
 Proyecto funcional 100% y es estable pero tiene ciertos comportamiento que quiero afinar y queda pendiente para un futuro.
 
-Falta documentar; mientras tanto voy poniendo información vital para al menos poder montar y funcionar.
-
 La Alhambra II funciona con 3,3V pero también tolera sin problemas entradas de 5V. Para este proyecto no se requiere adaptadores de tensión en sus pines. Quizás el puente en H lo requiera, pero he probado dos modelos de puente en H y no he tenido ningún problema en usar 3,3V.
 
 Para hacer ajustes se hace a través de las constantes **KP**, **fout**, **brake** y **us**. Siempre hay que utilizar números enteros positivos. Estas constantes son muy fáciles de configurar porque el rango es muy pequeño.
